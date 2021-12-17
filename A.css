@@ -1,0 +1,62 @@
+.header{
+background-color:#f2f2f2;
+text-align:center;
+padding:3px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+ background-color:black;
+ text-align:center;
+ color:white;
+
+ }
+.nav a{
+
+}
+.ul{
+ margin:auto;   
+background-color:yellow;
+width:75%;
+border-radius:15px/50px;
+text-align:center;
+height:50%;
+}
+.am{
+background:red;
+transition:width 2s,height 4s,transform 2s;
+height:100px;
+width:100px;
+}
+.am:hover{
+width:300px;
+height:300px;
+transform:rotate(360deg);
+}
+.in-line {
+    display:inline-block;
+}
+.am{
+height:100px;
+width:100px;
+background-color:red;
+animation-name:aman;
+animation-duration:4s;
+animation-iteration-count:infinite;
+}
+@keyframes aman{
+from{background-color: red;}
+to{background-color: yellow;}
+
+}
+
+.an{
+background-color:yellow;
+border:2px solid red;
+
+}
+.at{
+transform: rotate(120deg);
+
+}
+  
